@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Ruboty::Sorena::VERSION
   spec.authors       = ["mallowlabs"]
   spec.email         = ["mallowlabs@gmail.com"]
-  spec.summary       = "An ruboty handler to request それな by 新田恵海"
+  spec.summary       = "An ruboty handler to request それな！ by 新田恵海"
   spec.homepage      = "https://github.com/mallowlabs/ruboty-sorena"
   spec.license       = "MIT"
 
