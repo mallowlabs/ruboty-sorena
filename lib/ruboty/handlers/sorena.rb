@@ -6,7 +6,9 @@ module Ruboty
       on /それな|sorena/i, name: "sorena", description: "Request それな"
 
       def sorena(message)
-        body = 'https://pbs.twimg.com/media/B1_ybnKCMAAApSa.jpg'
+        body = %w(
+          https://pbs.twimg.com/media/B1_ybnKCMAAApSa.jpg
+          https://pbs.twimg.com/media/B1_823pCIAAvwwQ.jpg).sample
         message.reply(body)
       end
     end
